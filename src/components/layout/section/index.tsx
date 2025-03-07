@@ -1,14 +1,22 @@
 interface SectionType {
   container?: boolean;
   space?: "exterasmall" | "small" | "medium" | "large";
-  children?: React.ReactNode;
   className?: string;
+  identifier?: string;
+  children?: React.ReactNode;
 }
 
-const Section = ({ container, space, children, className }: SectionType) => {
+const Section = ({
+  container,
+  space,
+  className,
+  identifier,
+  children,
+}: SectionType) => {
   return (
     <>
       <section
+        id={`${identifier ? identifier : ""}`}
         className={`${container ? "container mx-auto" : "w-full"} ${
           space === "exterasmall"
             ? "space-exterasmall"

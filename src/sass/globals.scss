@@ -190,3 +190,15 @@ h6 {
     margin-bottom: 30px;
   }
 }
+
+// Main NavBar
+
+#main-navbar {
+  .links .nav-link {
+    color: #3a3c47;
+    transition: 0.07s ease-in;
+    &:hover {
+      color: #307bdd;
+    }
+  }
+}

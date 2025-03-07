@@ -16,7 +16,7 @@ const Typography = ({
       {!tagName && (
         <p
           style={{
-            color: !color ? "#000" : color,
+            color,
           }}
           className={`${className ? className : ""}`}
         >
@@ -26,7 +26,7 @@ const Typography = ({
       {tagName === "h1" ? (
         <h1
           style={{
-            color: !color ? "#000" : color,
+            color,
           }}
           className={`${className ? className : ""}`}
         >
@@ -35,7 +35,7 @@ const Typography = ({
       ) : tagName === "h2" ? (
         <h2
           style={{
-            color: !color ? "#000" : color,
+            color,
           }}
           className={`${className ? className : ""}`}
         >
@@ -44,7 +44,7 @@ const Typography = ({
       ) : tagName === "h3" ? (
         <h3
           style={{
-            color: !color ? "#000" : color,
+            color,
           }}
           className={`${className ? className : ""}`}
         >
@@ -53,7 +53,7 @@ const Typography = ({
       ) : tagName === "h4" ? (
         <h4
           style={{
-            color: !color ? "#000" : color,
+            color,
           }}
           className={`${className ? className : ""}`}
         >
@@ -62,7 +62,7 @@ const Typography = ({
       ) : tagName === "h5" ? (
         <h5
           style={{
-            color: !color ? "#000" : color,
+            color,
           }}
           className={`${className ? className : ""}`}
         >
@@ -71,7 +71,7 @@ const Typography = ({
       ) : tagName === "h6" ? (
         <h6
           style={{
-            color: !color ? "#000" : color,
+            color,
           }}
           className={`${className ? className : ""}`}
         >
@@ -80,7 +80,7 @@ const Typography = ({
       ) : tagName === "p" ? (
         <p
           style={{
-            color: !color ? "#000" : color,
+            color,
           }}
           className={`${className ? className : ""}`}
         >
@@ -89,7 +89,7 @@ const Typography = ({
       ) : tagName === "span" ? (
         <span
           style={{
-            color: !color ? "#000" : color,
+            color,
           }}
           className={`${className ? className : ""}`}
         >

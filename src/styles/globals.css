@@ -174,3 +174,10 @@ h6 {
     margin-bottom: 30px;
   }
 }
+#main-navbar .links .nav-link {
+  color: #3a3c47;
+  transition: 0.07s ease-in;
+}
+#main-navbar .links .nav-link:hover {
+  color: #307bdd;
+}
