@@ -36,12 +36,14 @@ const ChangeTheme = () => {
   }, []);
 
   return (
-    <section
-      className="fixed bottom-[65px] left-[65px] bg-white rounded-full p-2 px-4 border border-[#797979] cursor-pointer select-none hover:bg-[#f6f7fa] dark:hover:bg-[#d5e3fd]"
-      onClick={changeTheme}
-    >
-      {status === "dark" ? "Light" : "Dark"}
-    </section>
+    <>
+      <section
+        className="fixed bottom-[64px] left-[64px] bg-white rounded-full p-2 px-4 border border-[#797979] cursor-pointer select-none hover:bg-[#f6f7fa] dark:hover:bg-[#d5e3fd]"
+        onClick={changeTheme}
+      >
+        {status === "dark" ? "Light" : "Dark"}
+      </section>
+    </>
   );
 };
 

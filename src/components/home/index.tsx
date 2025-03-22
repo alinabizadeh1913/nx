@@ -9,7 +9,7 @@ const HomeComponents = () => {
     <>
       <BlurSection />
       <Header />
-      <ChangeTheme />
+      {/* <ChangeTheme /> */}
     </>
   );
 };
