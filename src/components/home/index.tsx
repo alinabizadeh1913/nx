@@ -3,13 +3,15 @@ import Typography from "../layout/typography";
 import BlurSection from "./blurSection";
 import Header from "./header";
 import ChangeTheme from "../../theme";
+import Introduction from "./introduction";
 
 const HomeComponents = () => {
   return (
     <>
       <BlurSection />
       <Header />
-      {/* <ChangeTheme /> */}
+      <Introduction />
+      <ChangeTheme />
     </>
   );
 };

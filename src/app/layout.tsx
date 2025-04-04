@@ -22,7 +22,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${Font.className} antialiased dark:bg-[#020617] duration-100`}
+        className={`${Font.className} antialiased dark:bg-[#021117] duration-100`}
       >
         <Layout>{children}</Layout>
         <Script

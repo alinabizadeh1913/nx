@@ -7,10 +7,10 @@ const MainNavBar = () => {
   return (
     <>
       <Section
-        className="mt-2 px-[18px] sticky top-0 z-30"
+        className="mt-2 px-[18px] sticky top-[8px] z-30"
         identifier="main-navbar"
       >
-        <div className="max-w-7xl mx-auto rounded-lg py-[10px] px-4 bg-[#fafafaec] dark:bg-[#0b0c22ce] backdrop-blur-2xl shadow-sm dark:shadow-none dark:border dark:border-[#aaf1ed21]">
+        <div className="max-w-7xl mx-auto rounded-lg py-[10px] px-4 bg-[#fafafaec] dark:bg-[#0b0c22ce] backdrop-blur-lg shadow-sm dark:shadow-none dark:border dark:border-[#aaf1ed21]">
           <div className="flex justify-between items-center">
             <div className="flex items-center">
               <div className="flex text-black dark:text-white">
