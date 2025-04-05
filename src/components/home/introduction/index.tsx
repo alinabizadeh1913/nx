@@ -7,8 +7,8 @@ const Introduction = () => {
   return (
     <>
       <Section
-        container
-        className="my-[50px] sm:my-[100px] md:my-[150px] lg:my-[200px]"
+        special
+        className="px-[55px] my-[50px] sm:my-[100px] md:my-[150px] lg:my-[200px]"
       >
         <div className="flex flex-col items-center justify-center">
           <Typography
@@ -19,35 +19,41 @@ const Introduction = () => {
           </Typography>
           <Typography className="dark:text-[#738094] text-center mt-2">
             We developed Nx to be modular and incrementally adoptable to meet
-            you where you’re at.
+            you where you're at.
           </Typography>
         </div>
         <div className="flex justify-between items-center mt-8">
           <div className="w-[46%]">
-            <div className="relative w-full h-[265px] overflow-hidden rounded-xl flex justify-center items-center">
+            <div className="relative w-full h-[265px] xl:h-[290px] overflow-hidden rounded-xl flex justify-center items-center">
               <Image
                 src="/images/poster.jpg"
                 alt="video-poster"
                 objectFit="cover"
                 fill
               />
-              <div className="absolute w-[80px] h-[80px] hover:w-[275px] duration-200 bg-[#ffffff4d] backdrop-blur-lg border-2 border-white rounded-full flex justify-center items-center text-white cursor-pointer">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  strokeWidth="1.5"
-                  stroke="currentColor"
-                  aria-hidden="true"
-                  data-slot="icon"
-                  className="absolute left-6 top-6 size-8"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M5.25 5.653c0-.856.917-1.398 1.667-.986l11.54 6.347a1.125 1.125 0 0 1 0 1.972l-11.54 6.347a1.125 1.125 0 0 1-1.667-.986V5.653Z"
-                  ></path>
-                </svg>
+              <div className="absolute play-button overflow-hidden w-[80px] h-[80px] hover:w-[275px] duration-200 bg-[#f3f3f354] backdrop-blur-lg border-2 border-white rounded-full flex justify-center items-center text-white cursor-pointer">
+                <div className="flex">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    strokeWidth="1.5"
+                    stroke="currentColor"
+                    aria-hidden="true"
+                    data-slot="icon"
+                    className="absolute left-6 top-6 size-8"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M5.25 5.653c0-.856.917-1.398 1.667-.986l11.54 6.347a1.125 1.125 0 0 1 0 1.972l-11.54 6.347a1.125 1.125 0 0 1-1.667-.986V5.653Z"
+                    ></path>
+                  </svg>
+                </div>
+                <div className="interview-text flex flex-col ms-8">
+                  <Typography>Watch the interview</Typography>
+                  <Typography className="text-sm">Under 3 minutes.</Typography>
+                </div>
               </div>
             </div>
           </div>
@@ -76,7 +82,7 @@ const Introduction = () => {
             <div className="mt-3">
               <Typography className="italic dark:text-white text-lg">
                 Nx is speed and scalability. Before we only had a few features
-                and CI was slow and now it’s fast with way more features. That’s
+                and CI was slow and now it's fast with way more features. That's
                 a huge win for us.
               </Typography>
             </div>

@@ -111,8 +111,8 @@ const Header = () => {
           </div>
         </div>
       </Section>
-      <Section>
-        <div className="max-w-7xl mx-auto px-[60px]">
+      <Section special>
+        <div className="px-[60px]">
           <div className="flex flex-wrap gap-y-12 lg:gap-y-0 lg:flex-nowrap justify-between">
             <div className="w-full lg:w-fit">
               <div className="flex justify-center font-[500] select-none gap-x-2">

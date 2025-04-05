@@ -1,5 +1,6 @@
 interface SectionType {
   container?: boolean;
+  special?: boolean;
   space?: "exterasmall" | "small" | "medium" | "large";
   className?: string;
   identifier?: string;
@@ -8,6 +9,7 @@ interface SectionType {
 
 const Section = ({
   container,
+  special,
   space,
   className,
   identifier,
@@ -18,6 +20,8 @@ const Section = ({
       <section
         id={`${identifier ? identifier : ""}`}
         className={`${container ? "container mx-auto" : "w-full"} ${
+          special ? "special-container mx-auto" : ""
+        } ${
           space === "exterasmall"
             ? "space-exterasmall"
             : space === "small"

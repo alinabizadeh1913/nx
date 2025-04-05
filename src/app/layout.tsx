@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
 import "../styles/globals.css";
 import Script from "next/script";
+import GlobalSearch from "@/components/layout/globalSearch";
 
 const Font = Poppins({
   subsets: ["latin"],
@@ -24,6 +25,7 @@ export default function RootLayout({
       <body
         className={`${Font.className} antialiased dark:bg-[#021117] duration-100`}
       >
+        <GlobalSearch />
         <Layout>{children}</Layout>
         <Script
           src="https://kit.fontawesome.com/79a164c540.js"

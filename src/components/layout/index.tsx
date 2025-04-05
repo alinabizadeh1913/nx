@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import MainNavBar from "./navbar";
 
 const Layout = ({ children }: { children: React.ReactNode }) => {

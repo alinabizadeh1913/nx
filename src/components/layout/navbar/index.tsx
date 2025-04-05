@@ -1,9 +1,13 @@
+"use client";
+
 import Link from "next/link";
 import { Logo } from "../../../../public/svg";
 import Section from "../section";
 import Typography from "../typography";
+import useStore from "@/store";
 
 const MainNavBar = () => {
+  const { isShowSearch, setIsShowSearch } = useStore((state: any) => state);
   return (
     <>
       <Section
@@ -88,6 +92,7 @@ const MainNavBar = () => {
                 <div className="pl-6 flex items-center">
                   <div
                     title="Control"
+                    onClick={() => setIsShowSearch(true)}
                     className="text-[13px] font-[500] border border-[#d8d8d8] hover:border-[#cccccc] text-[#b9b9b9] dark:bg-[#0a1f25] dark:text-[#4c7986] dark:border-[#90e0eb28] dark:hover:border-[#90b8eb50] dark:hover:bg-[#3e87c225] dark:hover:text-[#e7e7e777] py-[1px] px-[5px] rounded-md cursor-pointer hover:text-[#5a5a64] select-none duration-100"
                   >
                     Ctrl K
