@@ -10,7 +10,7 @@ const MainNavBar = () => {
         className="mt-2 px-[18px] sticky top-[8px] z-30"
         identifier="main-navbar"
       >
-        <div className="max-w-7xl mx-auto rounded-lg py-[10px] px-4 bg-[#fafafaec] dark:bg-[#0b0c22ce] backdrop-blur-lg shadow-sm dark:shadow-none dark:border dark:border-[#aaf1ed21]">
+        <div className="max-w-7xl mx-auto rounded-lg py-[10px] px-4 bg-[#fafafaec] dark:bg-[#0b1a22ce] backdrop-blur-lg shadow-sm dark:shadow-none dark:border dark:border-[#aaf1ed21]">
           <div className="flex justify-between items-center">
             <div className="flex items-center">
               <div className="flex text-black dark:text-white">
@@ -20,20 +20,20 @@ const MainNavBar = () => {
                 <div className="flex items-center gap-x-8 pr-6 border-r border-r-[#d6d6d6] dark:border-r-[#c8deff50] h-[25px]">
                   <Link
                     href="#"
-                    className="text-[#3a3c47] hover:text-[#307bdd] dark:text-white dark:hover:text-[#30a6dd] duration-100 text-sm font-[500]"
+                    className="text-[#3a3c47] hover:text-[#307bdd] dark:text-white dark:hover:text-[#30c3dd] duration-100 text-sm font-[500]"
                   >
                     Docs
                   </Link>
                   <Link
                     href="#"
-                    className="text-[#3a3c47] hover:text-[#307bdd] dark:text-white dark:hover:text-[#30a6dd] duration-100 text-sm font-[500]"
+                    className="text-[#3a3c47] hover:text-[#307bdd] dark:text-white dark:hover:text-[#30c3dd] duration-100 text-sm font-[500]"
                   >
                     Blog
                   </Link>
                   <div>
                     <Link
                       href="#"
-                      className="text-[#3a3c47] hover:text-[#307bdd] dark:text-white dark:hover:text-[#30a6dd] duration-100 text-sm font-[500] flex items-center"
+                      className="text-[#3a3c47] hover:text-[#307bdd] dark:text-white dark:hover:text-[#30c3dd] duration-100 text-sm font-[500] flex items-center"
                     >
                       Resources
                       <div className="flex">
@@ -60,13 +60,13 @@ const MainNavBar = () => {
                 <div className="flex items-center gap-x-8 px-6 border-r border-r-[#d6d6d6] dark:border-r-[#c8deff50] h-[25px]">
                   <Link
                     href="#"
-                    className="text-[#3a3c47] hover:text-[#307bdd] dark:text-white dark:hover:text-[#30a6dd] duration-100 text-sm font-[500]"
+                    className="text-[#3a3c47] hover:text-[#307bdd] dark:text-white dark:hover:text-[#30c3dd] duration-100 text-sm font-[500]"
                   >
                     Nx Cloud
                   </Link>
                   <Link
                     href="#"
-                    className="text-[#3a3c47] hover:text-[#307bdd] dark:text-white dark:hover:text-[#30a6dd] duration-100 text-sm font-[500]"
+                    className="text-[#3a3c47] hover:text-[#307bdd] dark:text-white dark:hover:text-[#30c3dd] duration-100 text-sm font-[500]"
                   >
                     Pricing
                   </Link>
@@ -74,13 +74,13 @@ const MainNavBar = () => {
                 <div className="flex items-center gap-x-8 px-6 border-r border-r-[#d6d6d6] dark:border-r-[#c8deff50] h-[25px]">
                   <Link
                     href="#"
-                    className="text-[#3a3c47] hover:text-[#307bdd] dark:text-white dark:hover:text-[#30a6dd] duration-100 text-sm font-[500]"
+                    className="text-[#3a3c47] hover:text-[#307bdd] dark:text-white dark:hover:text-[#30c3dd] duration-100 text-sm font-[500]"
                   >
                     Powerpack
                   </Link>
                   <Link
                     href="#"
-                    className="text-[#3a3c47] hover:text-[#307bdd] dark:text-white dark:hover:text-[#30a6dd] duration-100 text-sm font-[500]"
+                    className="text-[#3a3c47] hover:text-[#307bdd] dark:text-white dark:hover:text-[#30c3dd] duration-100 text-sm font-[500]"
                   >
                     Enterprise
                   </Link>
@@ -88,7 +88,7 @@ const MainNavBar = () => {
                 <div className="pl-6 flex items-center">
                   <div
                     title="Control"
-                    className="text-[13px] font-[500] border border-[#f0f0f0] hover:border-[#cccccc] text-[#c9c9c9] dark:bg-[#0a1125] dark:text-[#2a344a] dark:border-[#90b7eb28] dark:hover:border-[#90b8eb50] dark:hover:bg-[#3e87c225] dark:hover:text-[#e7e7e777] py-[1px] px-[5px] rounded-md cursor-pointer hover:text-[#5a5a64] select-none duration-100"
+                    className="text-[13px] font-[500] border border-[#d8d8d8] hover:border-[#cccccc] text-[#b9b9b9] dark:bg-[#0a1f25] dark:text-[#4c7986] dark:border-[#90e0eb28] dark:hover:border-[#90b8eb50] dark:hover:bg-[#3e87c225] dark:hover:text-[#e7e7e777] py-[1px] px-[5px] rounded-md cursor-pointer hover:text-[#5a5a64] select-none duration-100"
                   >
                     Ctrl K
                   </div>
@@ -106,7 +106,7 @@ const MainNavBar = () => {
               </Link>
               <Link
                 href="#"
-                className="flex text-[#8a8a8a] hover:text-[#555555] dark:hover:text-[#d8d4fc] duration-100 cursor-pointer"
+                className="flex text-[#8a8a8a] hover:text-[#555555] dark:hover:text-[#d4effc] duration-100 cursor-pointer"
               >
                 <svg
                   role="img"

@@ -1,6 +1,7 @@
 import Section from "@/components/layout/section";
 import Typography from "@/components/layout/typography";
 import Image from "next/image";
+import Link from "next/link";
 
 const Introduction = () => {
   return (
@@ -21,13 +22,36 @@ const Introduction = () => {
             you where you’re at.
           </Typography>
         </div>
-        <div className="flex justify-between items-center mt-6">
-          <div className="w-[45%]">
-            {/* <video src="">
-              <source src="" />
-            </video> */}
+        <div className="flex justify-between items-center mt-8">
+          <div className="w-[46%]">
+            <div className="relative w-full h-[265px] overflow-hidden rounded-xl flex justify-center items-center">
+              <Image
+                src="/images/poster.jpg"
+                alt="video-poster"
+                objectFit="cover"
+                fill
+              />
+              <div className="absolute w-[80px] h-[80px] hover:w-[275px] duration-200 bg-[#ffffff4d] backdrop-blur-lg border-2 border-white rounded-full flex justify-center items-center text-white cursor-pointer">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  strokeWidth="1.5"
+                  stroke="currentColor"
+                  aria-hidden="true"
+                  data-slot="icon"
+                  className="absolute left-6 top-6 size-8"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M5.25 5.653c0-.856.917-1.398 1.667-.986l11.54 6.347a1.125 1.125 0 0 1 0 1.972l-11.54 6.347a1.125 1.125 0 0 1-1.667-.986V5.653Z"
+                  ></path>
+                </svg>
+              </div>
+            </div>
           </div>
-          <div className="w-[45%]">
+          <div className="w-[46%]">
             <div className="flex items-center relative">
               <div className="absolute flex z-[-1] top-0">
                 <svg
@@ -69,7 +93,7 @@ const Introduction = () => {
                   <Typography className="dark:text-[#94a3b8]">
                     Pavlo Grosse
                   </Typography>
-                  <Typography className="dark:text-[#3e495f] text-sm">
+                  <Typography className="dark:text-[#4f5d79] text-sm">
                     Senior Software Engineer, Hetzner Cloud
                   </Typography>
                 </div>
@@ -87,6 +111,27 @@ const Introduction = () => {
                   <path d="M0 0v24h24V0H0zm4.602 4.025h2.244c.509 0 .716.215.716.717v5.64h8.883v-5.64c0-.509.215-.717.717-.717h2.229c.5 0 .71.23.724.717v14.516c0 .509-.215.717-.717.717h-2.23c-.51 0-.717-.215-.717-.717v-5.735H7.562v5.735c0 .516-.215.717-.716.717H4.602c-.51 0-.717-.208-.717-.717V4.742c0-.509.207-.717.717-.717z"></path>
                 </svg>
               </div>
+            </div>
+            <div className="flex items-center">
+              <Link
+                href="#"
+                className="dark:bg-[#1e293b] dark:hover:bg-[#314361] border dark:border-[#334155] py-[6px] px-[10px] rounded-md duration-200"
+              >
+                <Typography className="dark:text-[#d8dee7] text-sm">
+                  Learn about Nx Enterprise
+                </Typography>
+              </Link>
+              <Link
+                href="#"
+                className="flex items-center ms-6 dark:text-[#92a1b5]"
+              >
+                <Typography className="text-inherit text-sm">
+                  See our customers
+                </Typography>
+                <span aria-hidden="true" className="text-inherit ms-1">
+                  →
+                </span>
+              </Link>
             </div>
           </div>
         </div>

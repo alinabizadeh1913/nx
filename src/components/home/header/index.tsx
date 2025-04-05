@@ -15,7 +15,7 @@ const Header = () => {
                 Monorepos
               </Typography>
               <span className="inline-flex w-[9px] h-[9px] rounded-full bg-black dark:bg-white mx-6"></span>
-              <Typography className="inline font-[500] text-[45px] md:text-[55px] lg:text-6xl xl:text-7xl 2xl:text-[90px] bg-gradient-to-r from-pink-500 to-fuchsia-500 bg-clip-text text-transparent">
+              <Typography className="inline font-[500] text-[45px] md:text-[55px] lg:text-6xl xl:text-7xl 2xl:text-[90px] bg-gradient-to-r from-green-400 to-emerald-800 bg-clip-text text-transparent">
                 Fast
               </Typography>
               <Typography className="inline-flex font-[500] text-[45px] md:text-[55px] lg:text-6xl xl:text-7xl 2xl:text-[90px] ms-4 dark:text-white">
@@ -63,7 +63,7 @@ const Header = () => {
           </div>
           <div className="mt-8">
             <div className="flex justify-center gap-x-7">
-              <button className="bg-[#3b82f6] py-2 px-4 rounded-md text-white duration-100 hover:bg-[#3368bd] dark:bg-[#3ba2f6] dark:hover:bg-[#3289cf]">
+              <button className="bg-[#3b82f6] py-2 px-4 rounded-md text-white duration-100 hover:bg-[#3368bd] dark:bg-[#2593a7] dark:hover:bg-[#30c3dd]">
                 Get started
               </button>
               <button className="bg-[#020617] py-2 px-4 rounded-md text-white duration-100 hover:bg-[#020617de] dark:bg-[white] dark:text-[#202332] dark:hover:bg-[#e7eaee]">
@@ -117,7 +117,7 @@ const Header = () => {
             <div className="w-full lg:w-fit">
               <div className="flex justify-center font-[500] select-none gap-x-2">
                 <Typography
-                  className="inline-flex text-[#4588f6] dark:text-[#0ea5e9]"
+                  className="inline-flex text-[#4588f6] dark:text-[#30c3dd]"
                   tagName="h2"
                 >
                   2 million
@@ -139,7 +139,7 @@ const Header = () => {
             <div className="w-full lg:w-fit">
               <div className="flex justify-center font-[500] select-none gap-x-2">
                 <Typography
-                  className="inline-flex text-[#4588f6] dark:text-[#0ea5e9]"
+                  className="inline-flex text-[#4588f6] dark:text-[#30c3dd]"
                   tagName="h2"
                 >
                   50%
@@ -161,7 +161,7 @@ const Header = () => {
             <div className="w-full lg:w-fit">
               <div className="flex justify-center font-[500] select-none gap-x-2">
                 <Typography
-                  className="inline-flex text-[#4588f6] dark:text-[#0ea5e9]"
+                  className="inline-flex text-[#4588f6] dark:text-[#30c3dd]"
                   tagName="h2"
                 >
                   18 million
